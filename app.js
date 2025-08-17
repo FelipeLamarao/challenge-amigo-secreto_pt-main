@@ -1,7 +1,7 @@
 //O principal objetivo deste desafio é fortalecer suas habilidades em lógica de programação. Aqui você deverá desenvolver a lógica para resolver o problema.
 let listaDeParticipantes = [];
 
-function adicionarAmigo() {
+function adicionarNomes() {
     let nomeAmigo = document.getElementById("nomeAmigo").value;
 
     if (nomeAmigo && !listaDeParticipantes.includes(nomeAmigo)) {
